@@ -1,9 +1,9 @@
 # How to Run the Project
 
 1. Clone the project using HTTPS: `git clone https://github.com/ddlmar/expo-camera-issue.git`
-2. Install the dependencies using `yarn install`, `npm install`, or `pnpm install`.
+2. Install the dependencies using `yarn install`
 3. Run the project on a physical device using the following command:  
-   `npx expo run:android --device` or `npx expo run:ios --device`.
+   Before running following commands, run `npx expo prebuild` and run `npx expo run:android --device` or `npx expo run:ios --device`.
 4. On the app's home screen, allow camera access and scan a barcode with 44 or more digits.
 
 ## Code for Testing
